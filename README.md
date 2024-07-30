@@ -192,6 +192,12 @@ Definir tipos personalizados mejora la claridad y seguridad del código, especia
 
 #### Pregunta de reflexión:
 - ¿Cómo ayuda el tipado estático a prevenir errores en el manejo de variables y constantes?
+El tipado estático en TypeScript es una característica que permite definir el tipo de datos que una variable o constante puede contener desde el momento de su declaración. Esto ofrece varias ventajas para prevenir errores:
+
+*DETECCIÓN TEMPRANA DE ERRORES: Al especificar los tipos de datos, TypeScript puede detectar errores durante la fase de desarrollo, antes de que el código se ejecute. Por ejemplo, si intentas asignar un valor de tipo incorrecto a una variable, TypeScript generará un error de compilación.
+*AUTOCOMPLETADO Y DOCUMENTACIÓN: Los editores de código que soportan TypeScript pueden ofrecer autocompletado y documentación en línea basados en los tipos definidos, lo que facilita la escritura de código correcto y reduce la posibilidad de errores.
+*MEJORA LA LEGIBILIDAD Y MANTENIMIENTO DEL CÓDIGO: Al tener tipos explícitos, el código se vuelve más fácil de entender y mantener. Otros desarrolladores pueden comprender rápidamente qué tipo de datos se espera en cada variable o función.
+*PREVENCIÓN DE ERRORES COMUNES: El tipado estático ayuda a evitar errores comunes como el uso de métodos no disponibles para ciertos tipos de datos o la combinación incorrecta de tipos (por ejemplo, sumar un número con una cadena de texto).
 
 ### 2. Operadores (aritméticos, booleanos)
 #### Introducción:
