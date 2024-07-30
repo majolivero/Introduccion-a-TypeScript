@@ -135,8 +135,38 @@ console.log(add(10, 20)); // Resultado esperado: 30
 
 #### Preguntas de reflexión:
 - ¿Cómo influye una buena configuración inicial en el desarrollo de un proyecto?
+
+Una buena configuración inicial en un proyecto de TypeScript puede tener un impacto significativo en el desarrollo.Estas son las principales razones:
+*Detección temprana de errores: Una configuración adecuada del archivo tsconfig.json permite detectar errores
+en tiempo de compilación en lugar de en tiempo de ejecución. Esto ayuda a identificar y corregir problemas antes
+de que el código ejecute, mejorando la calidad del software. 
+*Consistencia en el código: Configurar reglas estrictas de tipado y otras opciones de compilación asegura
+que todo el equipo de desarrollo siga las mismas prácticas y estándares. Esto resulta en un código más consistente y fácil de mantener. 
+*Optimización del rendimiento: Configuraciones como la especificación del directorio de salida (outDir) y el directorio raíz(rootDir) ayudan a organizar el proyecto de manera eficiente, lo que puede mejorar el rendimiento del proceso de compilación y facilitar la gestión del código.
+*Facilidad de integración: Una buena configuración inicial facilita la integración con otras herramientas y
+frameworks, como linters, sistemas de construcción y entornos de desarrollo integrados(IDEs). Esto puede acelerar el desarrollo y mejorar la productividad del equipo. 
+*Escabilidad: Con una configuración bien pensada, es más fácil escalar el proyecto a medida que crece. Las configuraciones iniciales adecuadas permiten agregar nuevas funcionalidades y módulos sin necesidad de reestructurar el proyecto desde cero. 
+
+En resumen, una buena configuración inicial en TypeScript establece una base sólida para el desarrollo, mejorando la calidad del código, la productividad del equipo y la capacidad de escalar el proyecto.
+
 - ¿Qué ventajas ofrece TypeScript en comparación con JavaScript puro?
+
+TypeScript ofrece varias ventajas sobre JavaScript puro, especialmente en proyectos de gran escala y desarrollo en equipo. Aquí te menciono algunas de las más destacadas:
+*TIPADO ESTÁTICO: TypeScript permite definir tipos para variables, parámetros de funciones y retornos, lo que ayuda a detectar errores en tiempo de compilación en lugar de en tiempo de ejecución. Esto mejora la robustez y la mantenibilidad del código.
+*MEJOR AUTOCOMPLETADO Y NAVEGACIÓN: Gracias al tipado estático, los editores de código pueden ofrecer un autocompletado más preciso y una mejor navegación del código, lo que aumenta la productividad del desarrollador.
+*COMPATIBILIDAD CON JAVASCRIPT: TypeScript es un superconjunto de JavaScript, lo que significa que cualquier código JavaScript válido también es válido en TypeScript. Esto facilita la adopción gradual de TypeScript en proyectos existentes.
+*CARACTERISTICAS AVANZADAS DE ES6 Y ES7: TypeScript incluye muchas características de las versiones más recientes de ECMAScript, como clases, módulos y funciones flecha, incluso antes de que estén disponibles en todos los navegadores.
+*REFACTORIZACIÓN MÁS SEGURA:  La capacidad de refactorizar código de manera segura es una gran ventaja en proyectos grandes. TypeScript facilita la refactorización al proporcionar información sobre los tipos y las dependencias. 
+*MEJOR DOCUMENTACIÓN Y HERRAMIENTAS: La comunidad de TypeScript es muy activa y proporciona una excelente documentación y herramientas que facilitan el desarrollo y la resolución de problemas.
+
 - ¿Por qué es importante verificar los tipos de datos en un proyecto de software?
+Verificar los tipos de datos en un proyecto de software es crucial por varias razones:
+*PREVENCIÓN DE ERRORES: Al verificar los tipos de datos, se pueden detectar errores comunes como asignaciones incorrectas o llamadas a funciones con parámetros inválidos antes de que el código se ejecute. Esto reduce significativamente los errores en tiempo de ejecución.
+*MEJOR DOCUMENTACIÓN: Los tipos de datos actúan como una forma de documentación que describe claramente qué tipo de datos se espera en cada parte del código. Esto facilita la comprensión y el mantenimiento del código, especialmente en equipos grandes o en proyectos a largo plazo.
+*REFACTORIZACIÓN SEGURA: Con tipos de datos bien definidos, es más fácil y seguro refactorizar el código. Los desarrolladores pueden hacer cambios con mayor confianza, sabiendo que el sistema de tipos ayudará a identificar cualquier problema que surja debido a esos cambios.
+*AUTOCPMPLETADO Y HERRAMIENTAS DE DESARROLLO: Los editores de código y las herramientas de desarrollo pueden proporcionar autocompletado más preciso y advertencias útiles cuando se utilizan tipos. Esto mejora la productividad y reduce el tiempo de desarrollo.
+*CONSISTENCIA Y CLARIDAD: Verificar los tipos de datos asegura que el código sea más consistente y claro. Esto es especialmente importante en proyectos grandes donde múltiples desarrolladores trabajan en diferentes partes del código.
+*OPTIMIZACIÓN DEL RENDIMIENTO: Algunos lenguajes y compiladores pueden utilizar la información de tipos para optimizar el rendimiento del código, generando binarios más eficientes.
 
 ## Conceptos de Programación en TypeScript
 
