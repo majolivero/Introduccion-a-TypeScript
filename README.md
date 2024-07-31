@@ -260,6 +260,31 @@ El uso correcto de estructuras de decisión mejora la lógica y legibilidad del 
 #### Pregunta de reflexión:
 - ¿Cuándo es preferible usar un operador ternario en lugar de una estructura if?
 
+El operador ternario en TypeScript es una herramienta poderosa y concisa para realizar evaluaciones condicionales simples. Aquí te dejo algunas situaciones en las que es preferible usar un operador ternario en lugar de una estructura if:
+
+*ASIGNACIONES SIMPLES: Cuando necesitas asignar un valor a una variable basado en una condición. El operador ternario permite hacerlo en una sola línea, lo que hace el código más compacto y legible.
+
+```typescript
+let edad = 18;
+let mensaje = edad >= 18 ? "Eres mayor de edad":"Eres menor de edad";
+```
+
+*OPERACIONES CONDICIONALES EN LÍNEA: Para operaciones rápidas y simples dentro de expresiones. Esto es útil cuando quieres evitar el uso de múltiples líneas para una simple evaluación.
+
+```typescript
+let descuento = esMiembro ? "si" : "no";
+```
+*EVITAR BLOQUES DE CÓDIGO EXTENSOS: Cuando la lógica condicional es muy simple y no justifica el uso de un bloque if-else completo.
+
+```typescript
+let estado = activo ? "Activo" : "Inactivo";
+```
+*MEJORA DE LA LEGIBILIDAD: En casos donde el uso de if-else haría el código más verboso y menos legible. El operador ternario puede hacer que el código sea más fácil de seguir.
+
+```typescript
+let resultado = (nota >= 60) ? "Aprobado" : "Reprobado";
+```
+
 ### 4. Estructuras de iteración (while, for, foreach, map)
 #### Introducción:
 Las estructuras de iteración permiten ejecutar un bloque de código múltiples veces basándose en una condición o colección.
