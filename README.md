@@ -218,6 +218,17 @@ Utilizar operadores con tipos definidos ayuda a prevenir errores lógicos y mate
 #### Pregunta de reflexión:
 - ¿Qué ventajas ofrece el uso de operadores en un lenguaje tipado como TypeScript?
 
+El uso de operadores en un lenguaje tipado como TypeScript ofrece varias ventajas significativas:
+*CLARIDAD Y LEGIBILIDAD DEL CÓDIGO: Los operadores permiten realizar operaciones comunes de manera concisa y clara. Esto hace que el código sea más fácil de leer y entender, lo cual es crucial para el mantenimiento y la colaboración en proyectos grandes.
+
+*SEGURIDAD DE TIPOS: TypeScript, al ser un lenguaje tipado, permite que los operadores trabajen con tipos específicos, lo que ayuda a prevenir errores comunes. Por ejemplo, los operadores aritméticos solo funcionarán con tipos numéricos, lo que evita errores de tipo en tiempo de compilación.
+
+*OPTIMIZACIÓN DEL CÓDIGO: Los operadores pueden ayudar a optimizar el rendimiento del código. Por ejemplo, los operadores a nivel de bit pueden ser utilizados para operaciones de bajo nivel que son más rápidas que sus equivalentes aritméticos.
+
+*EXPRESIVIDAD: TypeScript incluye operadores avanzados como el operador ternario, que permite escribir expresiones condicionales de manera más compacta y legible.
+
+*CONSISTENCIA: Al usar operadores en un lenguaje tipado, se asegura que las operaciones se realicen de manera consistente, respetando las reglas de tipos definidas. Esto reduce la posibilidad de errores inesperados durante la ejecución.
+
 ### 3. Estructuras de decisión (if, switch, ternarios)
 #### Introducción:
 Las estructuras de decisión controlan el flujo de ejecución de un programa basado en condiciones específicas.
