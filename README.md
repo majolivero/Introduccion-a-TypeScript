@@ -309,6 +309,15 @@ Iterar sobre colecciones de datos es una operación común que debe manejarse ef
 #### Pregunta de reflexión:
 - ¿Qué ventajas tiene el método `map` sobre un bucle for en TypeScript?
 
+El método map en TypeScript ofrece varias ventajas sobre un bucle for tradicional:
+
+*CÓDIGO MÁS LIMPIO Y CONCISO: Con map, no necesitas manejar manualmente los índices ni preocuparte por la inicialización y actualización del contador del bucle. Esto hace que el código sea más legible y fácil de mantener.
+
+*INMUTABILIDAD: map crea un nuevo array basado en los resultados de la función de callback, sin modificar el array original. Esto promueve prácticas de programación funcional y evita efectos secundarios no deseados.
+
+*ENCADENAMIENTO: Puedes encadenar múltiples métodos de array (como filter, reduce, etc.) después de map, lo que permite realizar operaciones complejas de manera más elegante y declarativa.
+
+*SEPARACIÓN DE LÓGICA: La función de callback en map permite separar claramente la lógica de transformación de los datos del proceso de iteración, lo que puede mejorar la claridad del código.
 
 # Estructuras de Datos y Funciones
 

@@ -8,6 +8,7 @@
 //     price: number 
 // }
 
+
 //2.Operadores (aritméticos, booleanos)
 //Implementa una función que determine si un número es par utilizando operadores aritméticos y booleanos.
 
@@ -15,6 +16,7 @@
 //     return numero % 2 === 0;
 // }
 // console.log(esPar(4));
+
 
 //3. Estructuras de decisión (if, switch, ternarios)
 //Implementa una función que clasifique un número en positivo, negativo o cero usando if y switch.
@@ -47,4 +49,16 @@
 
 // let resultadoClasificarSwitch = clasificarNumeroSwitch(0);
 // console.log(resultadoClasificarSwitch);
+
+
+//4.Estructuras de iteración (while, for, foreach, map)
+//Implementa una función que recorra un array de nombres y los imprima en consola.
+
+function mostrarNombres(nombres:string[]){
+    for(let i = 0 ; i < nombres.length ; i++){
+        console.log(nombres[i]);
+    }
+}
+let arrayNombres = ["Ana", "Juan", "Pedro", "Andres"];
+mostrarNombres(arrayNombres);
 

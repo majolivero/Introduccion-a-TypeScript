@@ -39,6 +39,12 @@
 // }
 // let resultadoClasificarSwitch = clasificarNumeroSwitch(0);
 // console.log(resultadoClasificarSwitch);
-var edad = 18;
-var mensaje = edad >= 18 ? "Eres mayor de edad" : "Eres menor de edad";
-console.log(mensaje);
+//4.Estructuras de iteración (while, for, foreach, map)
+//Implementa una función que recorra un array de nombres y los imprima en consola.
+function mostrarNombres(nombres) {
+    for (var i = 0; i < nombres.length; i++) {
+        console.log(nombres[i]);
+    }
+}
+var arrayNombres = ["Ana", "Juan", "Pedro", "Andres"];
+mostrarNombres(arrayNombres);
