@@ -380,6 +380,19 @@ Los objetos son ideales para modelar datos complejos como usuarios, productos, �
 ### Pregunta de reflexión
 - **Pregunta:** ¿Qué ventajas ofrece el uso de tipos personalizados en objetos?
 
+El uso de tipos personalizados en objetos en TypeScript ofrece varias objetos:
+1.MAYOR CLARIDAD Y LEGIBILIDAD: Definir tipos personalizados hace que el código sea más fácil de entender y mantener. 
+Los desarrolladores pueden ver claramente que propiedades y métodos se esperan en un objeto.
+
+2.DETECCIÓN TEMPRANA DE ERRORES: TypeScript verifica los tipos en tiempo de compilación, lo que ayuda a detectar errores antes de ejecutar el código. Esto reduce la posibilidad de errores en tiempo de ejecución.
+
+3.REUTILIZACIÓN DE CÓDIGO: Los tipos personalizados pueden ser reutilizados en diferentes partes del código, lo que evita la duplicación y facilita la consistencia.
+
+4.AUTOCOMPLETADO Y DOCUMENTACIÓN: Los editores de código que soportan TypeScript pueden proporcionar autocompletado y documentación en línea para los tipos personalizados, lo que mejora la productividad del desarrollador.
+
+5.FACILITA EL REFACTORIZADO: Al tener tipos bien definidos, es más fácil realizar cambios en el código sin introducir errores, ya que TypeScript señalará cualquier inconsistencia. 
+
+
 ## 3. Funciones
 
 ### Introducción

@@ -113,7 +113,6 @@
 
 // 2. Objetos
 //Tarea 1. Define un objeto `Car` con propiedades `marca`, `modelo` y `año`. Crea una instancia de `Car` e imprime sus propiedades en consola.
-//Tarea 2. Con base en el objeto `Car`, crea una clase que posea un metodo estatico que reciba un objeto `Car` y retorne un string con la información del carro.
 
 interface Car{
     marca:string;
@@ -127,7 +126,35 @@ let myCar: Car = {
     año:2024
 }
 
-console.log(`Marca: ${myCar.marca}`);
-console.log(`Modelo: ${myCar.modelo}`);
-console.log(`Año: ${myCar.año}`)
+// console.log(`Marca: ${myCar.marca}`);
+// console.log(`Modelo: ${myCar.modelo}`);
+// console.log(`Año: ${myCar.año}`);
+
+//Tarea 2. Con base en el objeto `Car`, crea una clase que posea un metodo estatico que reciba un objeto `Car` y retorne un string con la información del carro.
+
+//En TypeScript, los métodos estáticos son aquellos que pertenecen a la clase en sí misma en lugar de a una instancia específica de la clase.
+//Esto significa que puedes llamar a un método estático directamente desde la clase sin necesidad de crear una instancia de la misma. 
+//Para definir un método estático, se utiliza la plabra clave static en la declaración del método dentro de la clase.
+
+class carInfo{
+    static obtenerInfo(car:Car):string{
+        let info:string = `Marca: ${car.marca} Modelo: ${car.modelo} Año: ${car.año}`;
+        return info;
+    }
+}
+
+let resultado = carInfo.obtenerInfo(myCar);
+console.log(resultado);
+
+//Tarea 3.Implementa una función que reciba un objeto `Car` y retorne un nuevo objeto con las mismas propiedades, pero con el año incrementado en 1.
+
+function recibirObjeto(car:Car):Car{
+    let newCar:Car = {
+        marca:car.marca,
+        modelo:car.modelo,
+        año:car.año + 1
+    }
+    return newCar;
+}
+
 
