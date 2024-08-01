@@ -54,11 +54,80 @@
 //4.Estructuras de iteración (while, for, foreach, map)
 //Implementa una función que recorra un array de nombres y los imprima en consola.
 
-function mostrarNombres(nombres:string[]){
-    for(let i = 0 ; i < nombres.length ; i++){
-        console.log(nombres[i]);
-    }
+// function mostrarNombres(nombres:string[]){
+//     for(let i = 0 ; i < nombres.length ; i++){
+//         console.log(nombres[i]);
+//     }
+// }
+// let arrayNombres = ["Ana", "Juan", "Pedro", "Andres"];
+// mostrarNombres(arrayNombres);
+
+
+//ESTRUCTURAS DE DATOS Y FUNCIONES
+//ARRAYS / LISTAS
+//TAREA 1: Crea un array de números y calcula la suma de todos sus elementos utilizando un metodo reduce.
+// let arrayNumbers: number[] = [1,2,3,4,5,6];
+
+// const initialValue = 0;
+// const sumReduce = arrayNumbers.reduce(
+//     (accumulator,currentValue) => accumulator + currentValue,
+//     initialValue,
+// );
+// console.log(sumReduce);
+
+//TAREA 2: Implementa una función que reciba un array de strings y retorne la concatenación de todos los elementos.
+
+// function concatenarElementos(array:string[]){
+//     return array.join('');
+// }
+// const miArray = ['Hola!',' ','soy',' ','TypeScript'];
+// const resultado = concatenarElementos(miArray);
+// console.log(resultado);
+
+//TAREA 3:Define un array de objetos `User` con propiedades `id` y `name`, e imprime el nombre de cada usuario en consola.
+
+// interface User {
+//     id:number;
+//     name:string;
+// }
+
+// const users : User[] = [
+//     {id:1, name:"Andres"},
+//     {id:2, name:"Jose"},
+//     {id:3, name:"Maria"}
+// ];
+
+// users.forEach(user => {
+//     console.log(user.name);
+// })
+
+//TAREA 4: Implementa una función que reciba un array de números y retorne el mayor valor.
+
+// function obtenerMayorNumero(arrayNumeros:number[]):number{
+//     return Math.max(...arrayNumeros) //Utiliza el operador de propagación para expandir los elementos del array y pasarlos como argumentos individuales a la función Math.max, que devuelve el mayor de los valores proporcionados
+// }
+
+// const miArray = [1,2,3,4,5];
+// console.log(obtenerMayorNumero([2,4,10,15,20]));
+
+
+// 2. Objetos
+//Tarea 1. Define un objeto `Car` con propiedades `marca`, `modelo` y `año`. Crea una instancia de `Car` e imprime sus propiedades en consola.
+//Tarea 2. Con base en el objeto `Car`, crea una clase que posea un metodo estatico que reciba un objeto `Car` y retorne un string con la información del carro.
+
+interface Car{
+    marca:string;
+    modelo:string;
+    año:number
 }
-let arrayNombres = ["Ana", "Juan", "Pedro", "Andres"];
-mostrarNombres(arrayNombres);
+
+let myCar: Car = {
+    marca: 'Suzuki',
+    modelo:'ABC123',
+    año:2024
+}
+
+console.log(`Marca: ${myCar.marca}`);
+console.log(`Modelo: ${myCar.modelo}`);
+console.log(`Año: ${myCar.año}`)
 

@@ -343,6 +343,18 @@ Los arrays son ampliamente utilizados para almacenar y manipular conjuntos de da
 ### Pregunta de reflexión
 - **Pregunta:** ¿Cómo se puede asegurar el tipo de datos en un array en TypeScript?
 
+En TypeScript, puedes asegurar el tipo de datos en un array especificando el tipo de los elementos que contendrá. 
+Por ejemplo:
+*Usando la sintaxis de corchete:
+```TypeScript
+const numeros:number[]=[1,2,3,4,5];
+```
+
+*Usando la clase genérica Array<T>:
+```TypeScript
+let numeros: Array<number> = [1, 2, 3, 4, 5];
+```
+
 ## 2. Objetos
 
 ### Introducción
